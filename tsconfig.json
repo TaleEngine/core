@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "ES2015",
+        "moduleResolution": "node",
+        "target": "ES2018",
+        "declaration": true,
+        "lib": [
+            "dom",
+            "es2020",
+            "esnext.asynciterable"
+        ],
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "exclude": [
+        "dist",
+        "tests"
+    ]
+}
